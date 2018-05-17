@@ -1,14 +1,3 @@
 <resources>
     <string name="app_name">Warhammer 2 Unit List</string>
-
-    <!-- Wood Elves -->
-    <string name="waystalker">Waystalker</string>
-    <string name="spellsingerShadows">Spellsinger (Shadows)</string>
-    <string name="spellsingerLife">Spellsinger (Life)</string>
-    <string name="spellsingerBeasts">Spellsinger (Beasts)</string>
-    <string name="gladeLordM">Glade Lord (M)</string>
-    <string name="gladeLordF">Glade Lord (F)</string>
-    <string name="durthu">Durthu</string>
-    <string name="branchwraith">Branchwraith</string>
-    <string name="ancientTreeman">Ancient Treeman</string>
 </resources>

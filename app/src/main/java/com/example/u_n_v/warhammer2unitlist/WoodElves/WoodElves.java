@@ -12,7 +12,10 @@ import com.example.u_n_v.warhammer2unitlist.NameList.UnitName;
 import com.example.u_n_v.warhammer2unitlist.R;
 import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.AncientTreeman;
 import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.Branchwraith;
+import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.Dryads;
 import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.Durthu;
+import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.EternalGuard;
+import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.EternalGuardShields;
 import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.GladeLordF;
 import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.GladeLordM;
 import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.SpellsingerBeasts;
@@ -43,6 +46,9 @@ public class WoodElves extends AppCompatActivity {
         woodElfNames.add(new UnitName("Spellsinger (Beasts)"));
         woodElfNames.add(new UnitName("Spellsinger (Life)"));
         woodElfNames.add(new UnitName("Branchwraith"));
+        woodElfNames.add(new UnitName("Eternal Guard"));
+        woodElfNames.add(new UnitName("Dryads"));
+        woodElfNames.add(new UnitName("Eternal Guard (Shields)"));
 
         unit = findViewById(R.id.unitName);
 
@@ -81,6 +87,15 @@ public class WoodElves extends AppCompatActivity {
                     startActivity(woodElvesIntent);
                 } else if (item == 8) {
                     Intent woodElvesIntent = new Intent(WoodElves.this, Branchwraith.class);
+                    startActivity(woodElvesIntent);
+                } else if (item == 9) {
+                    Intent woodElvesIntent = new Intent(WoodElves.this, EternalGuard.class);
+                    startActivity(woodElvesIntent);
+                } else if (item == 10) {
+                    Intent woodElvesIntent = new Intent(WoodElves.this, Dryads.class);
+                    startActivity(woodElvesIntent);
+                } else if (item == 11) {
+                    Intent woodElvesIntent = new Intent(WoodElves.this, EternalGuardShields.class);
                     startActivity(woodElvesIntent);
                 }
             }

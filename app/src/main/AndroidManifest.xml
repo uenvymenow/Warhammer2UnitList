@@ -40,7 +40,10 @@
         <activity android:name=".WoodElves.Units.SpellsingerShadows" />
         <activity android:name=".WoodElves.Units.SpellsingerBeasts" />
         <activity android:name=".WoodElves.Units.SpellsingerLife" />
-        <activity android:name=".WoodElves.Units.Branchwraith"></activity>
+        <activity android:name=".WoodElves.Units.Branchwraith" />
+        <activity android:name=".WoodElves.Units.EternalGuard" />
+        <activity android:name=".WoodElves.Units.Dryads" />
+        <activity android:name=".WoodElves.Units.EternalGuardShields"></activity>
     </application>
 
 </manifest>
