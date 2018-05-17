@@ -1,9 +1,11 @@
-package com.example.u_n_v.warhammer2unitlist;
+package com.example.u_n_v.warhammer2unitlist.Stats;
 
 public class UnitStats {
     // Set state of UnitStats class with default variables for each unit stat
     private String mUnitName;
+    private String mUnitType;
     private String mUnitCount;
+    private String mUnitCost;
     private String mUnitHealth;
     private String mUnitArmour;
     private String mUnitLeadership;
@@ -17,12 +19,14 @@ public class UnitStats {
     private String mUnitMissileDmg;
 
     // Class constructor
-    public UnitStats(String unitName, String unitCount, String unitHealth, String unitArmour,
+    public UnitStats(String unitName, String unitType, String unitCount, String unitCost, String unitHealth, String unitArmour,
                      String unitLeadership, String unitSpeed, String unitMeleeAtk, String unitMeleeDef,
                      String unitWeaponStr, String unitChargeBonus, String unitAmmunition,
                      String unitRange, String unitMissileDmg){
         mUnitName = unitName;
+        mUnitType = unitType;
         mUnitCount = unitCount;
+        mUnitCost = unitCost;
         mUnitHealth = unitHealth;
         mUnitArmour = unitArmour;
         mUnitLeadership = unitLeadership;
@@ -37,11 +41,18 @@ public class UnitStats {
     }
 
     // Method to retrieve unit Name
-    public String getUnitName(){ return  mUnitName;    }
+    public String getUnitName(){ return  mUnitName; }
+
+    public String getUnitType() { return mUnitType; }
 
     // Method to retrieve unit Count
     public String getUnitCount(){
         return mUnitCount;
+    }
+
+    // Method to retrieve unit cost
+    public String getUnitCost(){
+        return mUnitCost;
     }
 
     // Method to retrieve unit Health

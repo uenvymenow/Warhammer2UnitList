@@ -1,4 +1,4 @@
-package com.example.u_n_v.warhammer2unitlist;
+package com.example.u_n_v.warhammer2unitlist.Stats;
 
 import android.content.Context;
 import android.support.annotation.LayoutRes;
@@ -9,6 +9,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
+
+import com.example.u_n_v.warhammer2unitlist.R;
+import com.example.u_n_v.warhammer2unitlist.Stats.UnitStats;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -41,9 +44,18 @@ public class StatAdapter extends ArrayAdapter<UnitStats> {
         // Set the Unit Name to be in the Name TextView
         unitName.setText(currentStat.getUnitName());
 
+        // Find the TextView for the Name TextView
+        TextView unitType = statListView.findViewById(R.id.unitType);
+        // Set the Unit Name to be in the Name TextView
+        unitType.setText(currentStat.getUnitType());
+
         // Unit Count
         TextView unitCount = statListView.findViewById(R.id.unitCount);
         unitCount.setText(currentStat.getUnitCount());
+
+        // Unit Cost
+        TextView unitCost = statListView.findViewById(R.id.unitCost);
+        unitCost.setText(currentStat.getUnitCost());
 
         // Unit Health
         TextView unitHealth = statListView.findViewById(R.id.unitHealth);

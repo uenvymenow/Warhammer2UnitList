@@ -16,11 +16,31 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".HighElves"
-            android:label="High Elves"/>
-        <activity android:name=".HighElvesUnitStats"
-            android:label="Unit Stats"/>
-        <activity android:name=".Tester"></activity>
+        <activity
+            android:name=".HighElves.HighElves"
+            android:label="High Elves" />
+        <activity
+            android:name=".HighElves.HighElvesUnitStats"
+            android:label="Unit Stats" />
+        <activity android:name=".Tester" />
+        <activity
+            android:name=".WoodElves.Units.GladeLordM"
+            android:label="Glade Lord (M)" />
+        <activity
+            android:name=".WoodElves.Units.GladeLordF"
+            android:label="Glade Lord (F)" />
+        <activity
+            android:name=".WoodElves.WoodElves"
+            android:label="Wood Elves" />
+        <activity
+            android:name=".WoodElves.Units.AncientTreeman"
+            android:label="Ancient Treeman" />
+        <activity android:name=".WoodElves.Units.Durthu" />
+        <activity android:name=".WoodElves.Units.Waystalker" />
+        <activity android:name=".WoodElves.Units.SpellsingerShadows" />
+        <activity android:name=".WoodElves.Units.SpellsingerBeasts" />
+        <activity android:name=".WoodElves.Units.SpellsingerLife" />
+        <activity android:name=".WoodElves.Units.Branchwraith"></activity>
     </application>
 
 </manifest>

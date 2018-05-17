@@ -1,4 +1,4 @@
-package com.example.u_n_v.warhammer2unitlist;
+package com.example.u_n_v.warhammer2unitlist.NameList;
 
 public class UnitName {
 

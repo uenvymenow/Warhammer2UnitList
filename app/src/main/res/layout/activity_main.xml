@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
+        <!-- High Elves: Lothern and Order of Loremasters -->
         <TextView
             android:id="@+id/highElves"
             android:layout_width="fill_parent"
@@ -20,6 +21,7 @@
             android:gravity="center"
             android:text="High Elves" />
 
+        <!-- Hexoatl and Last Defenders -->
         <TextView
             android:id="@+id/lizardmen"
             android:layout_width="fill_parent"
@@ -37,6 +39,7 @@
         android:layout_below="@id/group1"
         android:orientation="horizontal">
 
+        <!-- Dark Elves: Naggarond and Cult of Pleasure -->
         <TextView
             android:id="@+id/darkElves"
             android:layout_width="fill_parent"
@@ -45,6 +48,7 @@
             android:gravity="center"
             android:text="Dark Elves" />
 
+        <!-- Skaven: Clan Mors, Clan Pestilens, and Clan Rictus -->
         <TextView
             android:id="@+id/skaven"
             android:layout_width="fill_parent"
@@ -62,6 +66,7 @@
         android:layout_below="@id/group2"
         android:orientation="horizontal">
 
+        <!-- Tomb Kings: Khemri, Exiles of Nehek, Court of Lybaras, Followers of Nagash -->
         <TextView
             android:id="@+id/tombKings"
             android:layout_width="fill_parent"
@@ -70,13 +75,14 @@
             android:gravity="center"
             android:text="Tomb Kings" />
 
+        <!-- Empire: The Empire -->
         <TextView
             android:id="@+id/empire"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="Empire" />
+            android:text="Empire Provinces" />
     </LinearLayout>
 
     <LinearLayout
@@ -86,6 +92,7 @@
         android:layout_below="@id/group3"
         android:orientation="horizontal">
 
+        <!-- Dwarves: Dwarves and Clan Angrund -->
         <TextView
             android:id="@+id/dwarves"
             android:layout_width="fill_parent"
@@ -94,13 +101,14 @@
             android:gravity="center"
             android:text="Dwarves" />
 
+        <!-- Bretonnia: Bretonnia, Bordeleaux, Carcassonne -->
         <TextView
             android:id="@+id/bretonnia"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="Bretonnia" />
+            android:text="Bretonnian Kingdoms" />
     </LinearLayout>
 
     <LinearLayout
@@ -110,21 +118,23 @@
         android:layout_below="@id/group4"
         android:orientation="horizontal">
 
+        <!-- Wood Elves: Wood Elves and Argwylon -->
         <TextView
             android:id="@+id/woodElves"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="Wood Elves" />
+            android:text="Wood Elf Realms" />
 
+        <!-- Greenskins: Greenskins, Crooked Moon, and The Bloody Handz -->
         <TextView
             android:id="@+id/greenskins"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="Greenskins" />
+            android:text="Greenskin Tribes" />
     </LinearLayout>
 
     <LinearLayout
@@ -134,6 +144,7 @@
         android:layout_below="@id/group5"
         android:orientation="horizontal">
 
+        <!-- Undead: Vampire Counts, Vlad von Carstein, and Isabella von Carstein -->
         <TextView
             android:id="@+id/undead"
             android:layout_width="fill_parent"
@@ -142,6 +153,7 @@
             android:gravity="center"
             android:text="Undead" />
 
+        <!-- Chaos: Warriors of Chaos -->
         <TextView
             android:id="@+id/chaos"
             android:layout_width="fill_parent"
@@ -158,6 +170,7 @@
         android:layout_below="@id/group6"
         android:orientation="horizontal">
 
+        <!-- Beastmen: Beastmen -->
         <TextView
             android:id="@+id/beastmen"
             android:layout_width="fill_parent"
