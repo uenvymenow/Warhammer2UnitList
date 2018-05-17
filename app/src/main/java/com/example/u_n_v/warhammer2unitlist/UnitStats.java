@@ -37,9 +37,7 @@ public class UnitStats {
     }
 
     // Method to retrieve unit Name
-    public String getUnitName(){
-        return  mUnitName;
-    }
+    public String getUnitName(){ return  mUnitName;    }
 
     // Method to retrieve unit Count
     public String getUnitCount(){

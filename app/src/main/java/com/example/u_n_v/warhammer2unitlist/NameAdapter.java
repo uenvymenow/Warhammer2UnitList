@@ -2,10 +2,12 @@ package com.example.u_n_v.warhammer2unitlist;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.support.annotation.LayoutRes;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
@@ -15,6 +17,7 @@ import org.w3c.dom.NameList;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.jar.Attributes;
 
 public class NameAdapter extends ArrayAdapter<UnitName> {
 

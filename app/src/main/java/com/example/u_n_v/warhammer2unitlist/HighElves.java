@@ -3,12 +3,19 @@ package com.example.u_n_v.warhammer2unitlist;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MotionEvent;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
 public class HighElves extends AppCompatActivity {
+
+    private ListView unit;
+    private NameAdapter mAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,23 +23,30 @@ public class HighElves extends AppCompatActivity {
         setContentView(R.layout.activity_high_elves);
 
         // Create an ArrayList of type UnitNames
-        ArrayList<UnitName> highElfNames = new ArrayList<>();
+        final ArrayList<UnitName> highElfNames = new ArrayList<>();
 
-        highElfNames.add(new UnitName("Glade Lord"));
+        highElfNames.add(new UnitName("Glade Lord (M)"));
+        highElfNames.add(new UnitName("Glade Lord (F)"));
 
-        // Find UnitName TextView
-        final TextView unitName = findViewById(R.id.unitName);
+        unit = findViewById(R.id.unitName);
 
-        if (unitName.getText().equals("Glade Lord")){
-            unitName.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Intent highElvesIntent = new Intent(HighElves.this, HighElvesUnitStats.class);
-                    startActivity(highElvesIntent);
-                }
-            });
-        }
+        mAdapter = new NameAdapter(this, highElfNames);
 
+        unit.setAdapter(mAdapter);
 
+        unit.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                int item = position;
+                if (item == 0) {
+                    Intent highElvesStatIntent = new Intent(HighElves.this, HighElvesUnitStats.class);
+                    startActivity(highElvesStatIntent);
+                } // else if ((item + 1) == 1){
+//                    Intent highElvesIntent = new Intent(HighElves.this, HighElvesUnitStats.class);
+//                    startActivity(highElvesIntent);
+//                }
+//                Toast.makeText(HighElves.this, item + "", Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 }

@@ -8,7 +8,6 @@ public class UnitName {
     // Class constructor
     public UnitName(String unitName){
         mUnitName = unitName;
-
     }
 
     // Method to retrieve unit Name

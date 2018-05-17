@@ -16,8 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".HighElves" />
-        <activity android:name=".HighElvesUnitStats"></activity>
+        <activity android:name=".HighElves"
+            android:label="High Elves"/>
+        <activity android:name=".HighElvesUnitStats"
+            android:label="Unit Stats"/>
+        <activity android:name=".Tester"></activity>
     </application>
 
 </manifest>
