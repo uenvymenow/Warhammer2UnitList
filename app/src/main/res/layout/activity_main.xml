@@ -3,71 +3,174 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="High Elves"
-        android:onClick="highElves"/>
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/group1"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Lizardmen"/>
+        android:orientation="horizontal">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Dark Elves"/>
+        <TextView
+            android:id="@+id/highElves"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="High Elves" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Skaven"/>
+        <TextView
+            android:id="@+id/lizardmen"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Lizardmen" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tomb Kings"/>
+    </LinearLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/group2"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Empire"/>
+        android:layout_below="@id/group1"
+        android:orientation="horizontal">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Dwarves"/>
+        <TextView
+            android:id="@+id/darkElves"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Dark Elves" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Bretonnia"/>
+        <TextView
+            android:id="@+id/skaven"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Skaven" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Wood Elves"/>
+    </LinearLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/group3"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Greenskins"/>
+        android:layout_below="@id/group2"
+        android:orientation="horizontal">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Undead"/>
+        <TextView
+            android:id="@+id/tombKings"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Tomb Kings" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Chaos"/>
+        <TextView
+            android:id="@+id/empire"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Empire" />
+    </LinearLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/group4"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Beastmen"/>
+        android:layout_below="@id/group3"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/dwarves"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Dwarves" />
+
+        <TextView
+            android:id="@+id/bretonnia"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Bretonnia" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/group5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/group4"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/woodElves"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Wood Elves" />
+
+        <TextView
+            android:id="@+id/greenskins"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Greenskins" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/group6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/group5"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/undead"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Undead" />
+
+        <TextView
+            android:id="@+id/chaos"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Chaos" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/group7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/group6"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/beastmen"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Beastmen" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text=""/>
+    </LinearLayout>
 </RelativeLayout>
