@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
+import com.example.u_n_v.warhammer2unitlist.HighElves.Units.Prince;
+import com.example.u_n_v.warhammer2unitlist.HighElves.Units.Princess;
 import com.example.u_n_v.warhammer2unitlist.NameList.NameAdapter;
 import com.example.u_n_v.warhammer2unitlist.NameList.UnitName;
 import com.example.u_n_v.warhammer2unitlist.R;
@@ -27,8 +29,9 @@ public class HighElves extends AppCompatActivity {
 
         // Create an ArrayList of type UnitNames
         final ArrayList<UnitName> highElfNames = new ArrayList<>();
-        highElfNames.add(new UnitName("Glade Lord (M)"));
-        highElfNames.add(new UnitName("Glade Lord (F)"));
+        highElfNames.add(new UnitName("Princess"));
+        highElfNames.add(new UnitName("Prince"));
+
 
         unit = findViewById(R.id.unitName);
 
@@ -36,16 +39,15 @@ public class HighElves extends AppCompatActivity {
 
         unit.setAdapter(mAdapter);
 
-
         unit.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 int item = position;
                 if (item == 0) {
-                    Intent highElvesStatIntent = new Intent(HighElves.this, GladeLordM.class);
+                    Intent highElvesStatIntent = new Intent(HighElves.this, Princess.class);
                     startActivity(highElvesStatIntent);
                 } else if (item == 1) {
-                    Intent highElvesIntent = new Intent(HighElves.this, GladeLordF.class);
+                    Intent highElvesIntent = new Intent(HighElves.this, Prince.class);
                     startActivity(highElvesIntent);
                 }
 //                Toast.makeText(HighElves.this, item + "", Toast.LENGTH_SHORT).show();
@@ -54,4 +56,3 @@ public class HighElves extends AppCompatActivity {
         });
     }
 }
-

@@ -59,6 +59,7 @@ public class WoodElves extends AppCompatActivity {
         final ArrayList<UnitName> woodElfNames = new ArrayList<>();
         woodElfNames.add(new UnitName("Glade Lord (M)"));
         woodElfNames.add(new UnitName("Glade Lord (F)"));
+        woodElfNames.add(new UnitName("Orion"));
         woodElfNames.add(new UnitName("Ancient Treeman"));
         woodElfNames.add(new UnitName("Durthu"));
         woodElfNames.add(new UnitName("Waystalker"));
@@ -88,7 +89,7 @@ public class WoodElves extends AppCompatActivity {
         woodElfNames.add(new UnitName("Tree Kin"));
         woodElfNames.add(new UnitName("Treeman"));
         woodElfNames.add(new UnitName("Forest Dragon"));
-        woodElfNames.add(new UnitName("Orion"));
+
 
         unit = findViewById(R.id.unitName);
 
@@ -108,94 +109,94 @@ public class WoodElves extends AppCompatActivity {
                     Intent woodElvesIntent = new Intent(WoodElves.this, GladeLordF.class);
                     startActivity(woodElvesIntent);
                 } else if (item == 2) {
-                    Intent woodElvesIntent = new Intent(WoodElves.this, AncientTreeman.class);
+                    Intent woodElvesIntent = new Intent(WoodElves.this, Orion.class);
                     startActivity(woodElvesIntent);
                 } else if (item == 3) {
-                    Intent woodElvesIntent = new Intent(WoodElves.this, Durthu.class);
+                    Intent woodElvesIntent = new Intent(WoodElves.this, AncientTreeman.class);
                     startActivity(woodElvesIntent);
                 } else if (item == 4) {
-                    Intent woodElvesIntent = new Intent(WoodElves.this, Waystalker.class);
+                    Intent woodElvesIntent = new Intent(WoodElves.this, Durthu.class);
                     startActivity(woodElvesIntent);
                 } else if (item == 5) {
-                    Intent woodElvesIntent = new Intent(WoodElves.this, SpellsingerShadows.class);
+                    Intent woodElvesIntent = new Intent(WoodElves.this, Waystalker.class);
                     startActivity(woodElvesIntent);
                 } else if (item == 6) {
-                    Intent woodElvesIntent = new Intent(WoodElves.this, SpellsingerBeasts.class);
+                    Intent woodElvesIntent = new Intent(WoodElves.this, SpellsingerShadows.class);
                     startActivity(woodElvesIntent);
                 } else if (item == 7) {
-                    Intent woodElvesIntent = new Intent(WoodElves.this, SpellsingerLife.class);
+                    Intent woodElvesIntent = new Intent(WoodElves.this, SpellsingerBeasts.class);
                     startActivity(woodElvesIntent);
                 } else if (item == 8) {
-                    Intent woodElvesIntent = new Intent(WoodElves.this, Branchwraith.class);
+                    Intent woodElvesIntent = new Intent(WoodElves.this, SpellsingerLife.class);
                     startActivity(woodElvesIntent);
                 } else if (item == 9) {
-                    Intent woodElvesIntent = new Intent(WoodElves.this, EternalGuard.class);
+                    Intent woodElvesIntent = new Intent(WoodElves.this, Branchwraith.class);
                     startActivity(woodElvesIntent);
                 } else if (item == 10) {
-                    Intent woodElvesIntent = new Intent(WoodElves.this, Dryads.class);
+                    Intent woodElvesIntent = new Intent(WoodElves.this, EternalGuard.class);
                     startActivity(woodElvesIntent);
                 } else if (item == 11) {
-                    Intent woodElvesIntent = new Intent(WoodElves.this, EternalGuardShields.class);
+                    Intent woodElvesIntent = new Intent(WoodElves.this, Dryads.class);
                     startActivity(woodElvesIntent);
                 } else if (item == 12) {
-                    Intent woodElvesIntent = new Intent(WoodElves.this, Wardancers.class);
+                    Intent woodElvesIntent = new Intent(WoodElves.this, EternalGuardShields.class);
                     startActivity(woodElvesIntent);
                 } else if (item == 13) {
-                    Intent woodElvesIntent = new Intent(WoodElves.this, WardancersAsraiSpears.class);
+                    Intent woodElvesIntent = new Intent(WoodElves.this, Wardancers.class);
                     startActivity(woodElvesIntent);
                 } else if (item == 14) {
-                    Intent woodElvesIntent = new Intent(WoodElves.this, WildwoodRangers.class);
+                    Intent woodElvesIntent = new Intent(WoodElves.this, WardancersAsraiSpears.class);
                     startActivity(woodElvesIntent);
                 } else if (item == 15) {
-                    Intent woodElvesIntent = new Intent(WoodElves.this, GladeGuard.class);
+                    Intent woodElvesIntent = new Intent(WoodElves.this, WildwoodRangers.class);
                     startActivity(woodElvesIntent);
                 } else if (item == 16) {
-                    Intent woodElvesIntent = new Intent(WoodElves.this, GladeGuardHagbaneTips.class);
+                    Intent woodElvesIntent = new Intent(WoodElves.this, GladeGuard.class);
                     startActivity(woodElvesIntent);
                 } else if (item == 17) {
-                    Intent woodElvesIntent = new Intent(WoodElves.this, GladeGuardStarfireShafts.class);
+                    Intent woodElvesIntent = new Intent(WoodElves.this, GladeGuardHagbaneTips.class);
                     startActivity(woodElvesIntent);
                 } else if (item == 18) {
-                    Intent woodElvesIntent = new Intent(WoodElves.this, DeepwoodScouts.class);
+                    Intent woodElvesIntent = new Intent(WoodElves.this, GladeGuardStarfireShafts.class);
                     startActivity(woodElvesIntent);
                 } else if (item == 19) {
-                    Intent woodElvesIntent = new Intent(WoodElves.this, DeepwoodScoutsSwiftshiverShards.class);
+                    Intent woodElvesIntent = new Intent(WoodElves.this, DeepwoodScouts.class);
                     startActivity(woodElvesIntent);
                 } else if (item == 20) {
-                    Intent woodElvesIntent = new Intent(WoodElves.this, Waywatchers.class);
+                    Intent woodElvesIntent = new Intent(WoodElves.this, DeepwoodScoutsSwiftshiverShards.class);
                     startActivity(woodElvesIntent);
                 } else if (item == 21) {
-                    Intent woodElvesIntent = new Intent(WoodElves.this, WildRiders.class);
+                    Intent woodElvesIntent = new Intent(WoodElves.this, Waywatchers.class);
                     startActivity(woodElvesIntent);
                 } else if (item == 22) {
-                    Intent woodElvesIntent = new Intent(WoodElves.this, WildRidersShields.class);
+                    Intent woodElvesIntent = new Intent(WoodElves.this, WildRiders.class);
                     startActivity(woodElvesIntent);
                 } else if (item == 23) {
-                    Intent woodElvesIntent = new Intent(WoodElves.this, GladeRiders.class);
+                    Intent woodElvesIntent = new Intent(WoodElves.this, WildRidersShields.class);
                     startActivity(woodElvesIntent);
                 } else if (item == 24) {
-                    Intent woodElvesIntent = new Intent(WoodElves.this, GladeRidersHagbaneTips.class);
+                    Intent woodElvesIntent = new Intent(WoodElves.this, GladeRiders.class);
                     startActivity(woodElvesIntent);
                 } else if (item == 25) {
-                    Intent woodElvesIntent = new Intent(WoodElves.this, HawkRiders.class);
+                    Intent woodElvesIntent = new Intent(WoodElves.this, GladeRidersHagbaneTips.class);
                     startActivity(woodElvesIntent);
                 } else if (item == 26) {
-                    Intent woodElvesIntent = new Intent(WoodElves.this, SistersOfTheThorn.class);
+                    Intent woodElvesIntent = new Intent(WoodElves.this, HawkRiders.class);
                     startActivity(woodElvesIntent);
                 } else if (item == 27) {
-                    Intent woodElvesIntent = new Intent(WoodElves.this, GreatEagle.class);
+                    Intent woodElvesIntent = new Intent(WoodElves.this, SistersOfTheThorn.class);
                     startActivity(woodElvesIntent);
                 } else if (item == 28) {
-                    Intent woodElvesIntent = new Intent(WoodElves.this, TreeKin.class);
+                    Intent woodElvesIntent = new Intent(WoodElves.this, GreatEagle.class);
                     startActivity(woodElvesIntent);
                 } else if (item == 29) {
-                    Intent woodElvesIntent = new Intent(WoodElves.this, Treeman.class);
+                    Intent woodElvesIntent = new Intent(WoodElves.this, TreeKin.class);
                     startActivity(woodElvesIntent);
                 } else if (item == 30) {
-                    Intent woodElvesIntent = new Intent(WoodElves.this, ForestDragon.class);
+                    Intent woodElvesIntent = new Intent(WoodElves.this, Treeman.class);
                     startActivity(woodElvesIntent);
                 } else if (item == 31) {
-                    Intent woodElvesIntent = new Intent(WoodElves.this, Orion.class);
+                    Intent woodElvesIntent = new Intent(WoodElves.this, ForestDragon.class);
                     startActivity(woodElvesIntent);
                 }
             }

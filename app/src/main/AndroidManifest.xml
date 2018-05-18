@@ -21,75 +21,108 @@
             android:label="High Elves" />
         <activity android:name=".Tester" />
         <activity
+            android:name=".WoodElves.WoodElves"
+            android:label="Wood Elves" />
+        <activity
             android:name=".WoodElves.Units.GladeLordM"
             android:label="Glade Lord (M)" />
         <activity
             android:name=".WoodElves.Units.GladeLordF"
             android:label="Glade Lord (F)" />
         <activity
-            android:name=".WoodElves.WoodElves"
-            android:label="Wood Elves" />
+            android:name=".WoodElves.Units.Orion"
+            android:label="Orion" />
         <activity
             android:name=".WoodElves.Units.AncientTreeman"
             android:label="Ancient Treeman" />
-        <activity android:name=".WoodElves.Units.Durthu"
-            android:label="Durthu"/>
-        <activity android:name=".WoodElves.Units.Waystalker"
-            android:label="Waystalker"/>
-        <activity android:name=".WoodElves.Units.SpellsingerShadows"
-            android:label="Spellsinger Shadows"/>
-        <activity android:name=".WoodElves.Units.SpellsingerBeasts"
-            android:label="Spellsinger Beasts"/>
-        <activity android:name=".WoodElves.Units.SpellsingerLife"
-            android:label="Spellsinger Life"/>
-        <activity android:name=".WoodElves.Units.Branchwraith"
-            android:label="Branchwraith"/>
-        <activity android:name=".WoodElves.Units.EternalGuard"
-            android:label="Eternal Guard"/>
-        <activity android:name=".WoodElves.Units.Dryads"
-            android:label="Dryads"/>
-        <activity android:name=".WoodElves.Units.EternalGuardShields"
-            android:label="Eternal Guard Shields"/>
-        <activity android:name=".WoodElves.Units.Wardancers"
-            android:label="Wardancers"/>
-        <activity android:name=".WoodElves.Units.WardancersAsraiSpears"
-            android:label="Wardancers Asrai Spears"/>
-        <activity android:name=".WoodElves.Units.WildwoodRangers"
-            android:label="Wildwood Rangers"/>
-        <activity android:name=".WoodElves.Units.GladeGuard"
-            android:label="Glade Guard"/>
-        <activity android:name=".WoodElves.Units.GladeGuardHagbaneTips"
-            android:label="Glade Guard Hagbane Tips"/>
-        <activity android:name=".WoodElves.Units.GladeGuardStarfireShafts"
-            android:label="Glade Guard Starfire Shafts"/>
-        <activity android:name=".WoodElves.Units.DeepwoodScouts"
-            android:label="Deepwood Scouts"/>
-        <activity android:name=".WoodElves.Units.DeepwoodScoutsSwiftshiverShards"
-            android:label="Deepwood Scouts Swiftshiver Shards"/>
-        <activity android:name=".WoodElves.Units.Waywatchers"
-            android:label="Waywatchers"/>
-        <activity android:name=".WoodElves.Units.WildRiders"
-            android:label="Wild Riders"/>
-        <activity android:name=".WoodElves.Units.WildRidersShields"
-            android:label="Wild Riders Shields"/>
-        <activity android:name=".WoodElves.Units.GladeRiders"
-            android:label="Glade Riders"/>
-        <activity android:name=".WoodElves.Units.GladeRidersHagbaneTips"
-            android:label="Glade Riders Hagbane Tips"/>
-        <activity android:name=".WoodElves.Units.HawkRiders"
-            android:label="Hawk Riders"/>
-        <activity android:name=".WoodElves.Units.SistersOfTheThorn"
-            android:label="Sisters of the Thorn"/>
-        <activity android:name=".WoodElves.Units.GreatEagle"
-            android:label="Great Eagle"/>
-        <activity android:name=".WoodElves.Units.TreeKin"
-            android:label="Tree Kin"/>
-        <activity android:name=".WoodElves.Units.Treeman"
-            android:label="Treeman"/>
-        <activity android:name=".WoodElves.Units.ForestDragon"
-            android:label="Forest Dragon"/>
-        <activity android:name=".WoodElves.Units.Orion"
-            android:label="Orion"/>
+        <activity
+            android:name=".WoodElves.Units.Durthu"
+            android:label="Durthu" />
+        <activity
+            android:name=".WoodElves.Units.Waystalker"
+            android:label="Waystalker" />
+        <activity
+            android:name=".WoodElves.Units.SpellsingerShadows"
+            android:label="Spellsinger Shadows" />
+        <activity
+            android:name=".WoodElves.Units.SpellsingerBeasts"
+            android:label="Spellsinger Beasts" />
+        <activity
+            android:name=".WoodElves.Units.SpellsingerLife"
+            android:label="Spellsinger Life" />
+        <activity
+            android:name=".WoodElves.Units.Branchwraith"
+            android:label="Branchwraith" />
+        <activity
+            android:name=".WoodElves.Units.EternalGuard"
+            android:label="Eternal Guard" />
+        <activity
+            android:name=".WoodElves.Units.Dryads"
+            android:label="Dryads" />
+        <activity
+            android:name=".WoodElves.Units.EternalGuardShields"
+            android:label="Eternal Guard Shields" />
+        <activity
+            android:name=".WoodElves.Units.Wardancers"
+            android:label="Wardancers" />
+        <activity
+            android:name=".WoodElves.Units.WardancersAsraiSpears"
+            android:label="Wardancers Asrai Spears" />
+        <activity
+            android:name=".WoodElves.Units.WildwoodRangers"
+            android:label="Wildwood Rangers" />
+        <activity
+            android:name=".WoodElves.Units.GladeGuard"
+            android:label="Glade Guard" />
+        <activity
+            android:name=".WoodElves.Units.GladeGuardHagbaneTips"
+            android:label="Glade Guard Hagbane Tips" />
+        <activity
+            android:name=".WoodElves.Units.GladeGuardStarfireShafts"
+            android:label="Glade Guard Starfire Shafts" />
+        <activity
+            android:name=".WoodElves.Units.DeepwoodScouts"
+            android:label="Deepwood Scouts" />
+        <activity
+            android:name=".WoodElves.Units.DeepwoodScoutsSwiftshiverShards"
+            android:label="Deepwood Scouts Swiftshiver Shards" />
+        <activity
+            android:name=".WoodElves.Units.Waywatchers"
+            android:label="Waywatchers" />
+        <activity
+            android:name=".WoodElves.Units.WildRiders"
+            android:label="Wild Riders" />
+        <activity
+            android:name=".WoodElves.Units.WildRidersShields"
+            android:label="Wild Riders Shields" />
+        <activity
+            android:name=".WoodElves.Units.GladeRiders"
+            android:label="Glade Riders" />
+        <activity
+            android:name=".WoodElves.Units.GladeRidersHagbaneTips"
+            android:label="Glade Riders Hagbane Tips" />
+        <activity
+            android:name=".WoodElves.Units.HawkRiders"
+            android:label="Hawk Riders" />
+        <activity
+            android:name=".WoodElves.Units.SistersOfTheThorn"
+            android:label="Sisters of the Thorn" />
+        <activity
+            android:name=".WoodElves.Units.GreatEagle"
+            android:label="Great Eagle" />
+        <activity
+            android:name=".WoodElves.Units.TreeKin"
+            android:label="Tree Kin" />
+        <activity
+            android:name=".WoodElves.Units.Treeman"
+            android:label="Treeman" />
+        <activity
+            android:name=".WoodElves.Units.ForestDragon"
+            android:label="Forest Dragon" />
+        <activity
+            android:name=".HighElves.Units.Princess"
+            android:label="Princess" />
+        <activity android:name=".HighElves.Units.Prince"></activity>
     </application>
 
 </manifest>
