@@ -18,6 +18,7 @@ import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.Dryads;
 import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.Durthu;
 import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.EternalGuard;
 import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.EternalGuardShields;
+import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.ForestDragon;
 import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.GladeGuard;
 import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.GladeGuardHagbaneTips;
 import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.GladeGuardStarfireShafts;
@@ -25,11 +26,15 @@ import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.GladeLordF;
 import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.GladeLordM;
 import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.GladeRiders;
 import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.GladeRidersHagbaneTips;
+import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.GreatEagle;
 import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.HawkRiders;
+import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.Orion;
 import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.SistersOfTheThorn;
 import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.SpellsingerBeasts;
 import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.SpellsingerLife;
 import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.SpellsingerShadows;
+import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.TreeKin;
+import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.Treeman;
 import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.Wardancers;
 import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.WardancersAsraiSpears;
 import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.Waystalker;
@@ -79,6 +84,11 @@ public class WoodElves extends AppCompatActivity {
         woodElfNames.add(new UnitName("Glade Riders (Hagbane Tips)"));
         woodElfNames.add(new UnitName("Hawk Riders"));
         woodElfNames.add(new UnitName("Sisters of the Thorn"));
+        woodElfNames.add(new UnitName("Great Eagle"));
+        woodElfNames.add(new UnitName("Tree Kin"));
+        woodElfNames.add(new UnitName("Treeman"));
+        woodElfNames.add(new UnitName("Forest Dragon"));
+        woodElfNames.add(new UnitName("Orion"));
 
         unit = findViewById(R.id.unitName);
 
@@ -171,6 +181,21 @@ public class WoodElves extends AppCompatActivity {
                     startActivity(woodElvesIntent);
                 } else if (item == 26) {
                     Intent woodElvesIntent = new Intent(WoodElves.this, SistersOfTheThorn.class);
+                    startActivity(woodElvesIntent);
+                } else if (item == 27) {
+                    Intent woodElvesIntent = new Intent(WoodElves.this, GreatEagle.class);
+                    startActivity(woodElvesIntent);
+                } else if (item == 28) {
+                    Intent woodElvesIntent = new Intent(WoodElves.this, TreeKin.class);
+                    startActivity(woodElvesIntent);
+                } else if (item == 29) {
+                    Intent woodElvesIntent = new Intent(WoodElves.this, Treeman.class);
+                    startActivity(woodElvesIntent);
+                } else if (item == 30) {
+                    Intent woodElvesIntent = new Intent(WoodElves.this, ForestDragon.class);
+                    startActivity(woodElvesIntent);
+                } else if (item == 31) {
+                    Intent woodElvesIntent = new Intent(WoodElves.this, Orion.class);
                     startActivity(woodElvesIntent);
                 }
             }
