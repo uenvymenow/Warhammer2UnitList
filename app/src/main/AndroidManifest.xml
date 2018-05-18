@@ -43,7 +43,22 @@
         <activity android:name=".WoodElves.Units.Branchwraith" />
         <activity android:name=".WoodElves.Units.EternalGuard" />
         <activity android:name=".WoodElves.Units.Dryads" />
-        <activity android:name=".WoodElves.Units.EternalGuardShields"></activity>
+        <activity android:name=".WoodElves.Units.EternalGuardShields" />
+        <activity android:name=".WoodElves.Units.Wardancers" />
+        <activity android:name=".WoodElves.Units.WardancersAsraiSpears" />
+        <activity android:name=".WoodElves.Units.WildwoodRangers" />
+        <activity android:name=".WoodElves.Units.GladeGuard" />
+        <activity android:name=".WoodElves.Units.GladeGuardHagbaneTips" />
+        <activity android:name=".WoodElves.Units.GladeGuardStarfireShafts" />
+        <activity android:name=".WoodElves.Units.DeepwoodScouts" />
+        <activity android:name=".WoodElves.Units.DeepwoodScoutsSwiftshiverShards" />
+        <activity android:name=".WoodElves.Units.Waywatchers" />
+        <activity android:name=".WoodElves.Units.WildRiders" />
+        <activity android:name=".WoodElves.Units.WildRidersShields" />
+        <activity android:name=".WoodElves.Units.GladeRiders" />
+        <activity android:name=".WoodElves.Units.GladeRidersHagbaneTips" />
+        <activity android:name=".WoodElves.Units.HawkRiders" />
+        <activity android:name=".WoodElves.Units.SistersOfTheThorn"></activity>
     </application>
 
 </manifest>

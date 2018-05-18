@@ -12,16 +12,31 @@ import com.example.u_n_v.warhammer2unitlist.NameList.UnitName;
 import com.example.u_n_v.warhammer2unitlist.R;
 import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.AncientTreeman;
 import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.Branchwraith;
+import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.DeepwoodScouts;
+import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.DeepwoodScoutsSwiftshiverShards;
 import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.Dryads;
 import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.Durthu;
 import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.EternalGuard;
 import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.EternalGuardShields;
+import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.GladeGuard;
+import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.GladeGuardHagbaneTips;
+import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.GladeGuardStarfireShafts;
 import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.GladeLordF;
 import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.GladeLordM;
+import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.GladeRiders;
+import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.GladeRidersHagbaneTips;
+import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.HawkRiders;
+import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.SistersOfTheThorn;
 import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.SpellsingerBeasts;
 import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.SpellsingerLife;
 import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.SpellsingerShadows;
+import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.Wardancers;
+import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.WardancersAsraiSpears;
 import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.Waystalker;
+import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.Waywatchers;
+import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.WildRiders;
+import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.WildRidersShields;
+import com.example.u_n_v.warhammer2unitlist.WoodElves.Units.WildwoodRangers;
 
 import java.util.ArrayList;
 
@@ -49,6 +64,21 @@ public class WoodElves extends AppCompatActivity {
         woodElfNames.add(new UnitName("Eternal Guard"));
         woodElfNames.add(new UnitName("Dryads"));
         woodElfNames.add(new UnitName("Eternal Guard (Shields)"));
+        woodElfNames.add(new UnitName("Wardancers"));
+        woodElfNames.add(new UnitName("Wardancers (Asrai Spears)"));
+        woodElfNames.add(new UnitName("Wildwood Rangers"));
+        woodElfNames.add(new UnitName("Glade Guard"));
+        woodElfNames.add(new UnitName("Glade Guard (Hagbane Tips)"));
+        woodElfNames.add(new UnitName("Glade Guard (Starfire Shafts)"));
+        woodElfNames.add(new UnitName("Deepwood Scouts"));
+        woodElfNames.add(new UnitName("Deepwood Scouts (Swiftshiver Shards)"));
+        woodElfNames.add(new UnitName("Waywatchers"));
+        woodElfNames.add(new UnitName("Wild Riders"));
+        woodElfNames.add(new UnitName("Wild Riders (Shields)"));
+        woodElfNames.add(new UnitName("Glade Riders"));
+        woodElfNames.add(new UnitName("Glade Riders (Hagbane Tips)"));
+        woodElfNames.add(new UnitName("Hawk Riders"));
+        woodElfNames.add(new UnitName("Sisters of the Thorn"));
 
         unit = findViewById(R.id.unitName);
 
@@ -96,6 +126,51 @@ public class WoodElves extends AppCompatActivity {
                     startActivity(woodElvesIntent);
                 } else if (item == 11) {
                     Intent woodElvesIntent = new Intent(WoodElves.this, EternalGuardShields.class);
+                    startActivity(woodElvesIntent);
+                } else if (item == 12) {
+                    Intent woodElvesIntent = new Intent(WoodElves.this, Wardancers.class);
+                    startActivity(woodElvesIntent);
+                } else if (item == 13) {
+                    Intent woodElvesIntent = new Intent(WoodElves.this, WardancersAsraiSpears.class);
+                    startActivity(woodElvesIntent);
+                } else if (item == 14) {
+                    Intent woodElvesIntent = new Intent(WoodElves.this, WildwoodRangers.class);
+                    startActivity(woodElvesIntent);
+                } else if (item == 15) {
+                    Intent woodElvesIntent = new Intent(WoodElves.this, GladeGuard.class);
+                    startActivity(woodElvesIntent);
+                } else if (item == 16) {
+                    Intent woodElvesIntent = new Intent(WoodElves.this, GladeGuardHagbaneTips.class);
+                    startActivity(woodElvesIntent);
+                } else if (item == 17) {
+                    Intent woodElvesIntent = new Intent(WoodElves.this, GladeGuardStarfireShafts.class);
+                    startActivity(woodElvesIntent);
+                } else if (item == 18) {
+                    Intent woodElvesIntent = new Intent(WoodElves.this, DeepwoodScouts.class);
+                    startActivity(woodElvesIntent);
+                } else if (item == 19) {
+                    Intent woodElvesIntent = new Intent(WoodElves.this, DeepwoodScoutsSwiftshiverShards.class);
+                    startActivity(woodElvesIntent);
+                } else if (item == 20) {
+                    Intent woodElvesIntent = new Intent(WoodElves.this, Waywatchers.class);
+                    startActivity(woodElvesIntent);
+                } else if (item == 21) {
+                    Intent woodElvesIntent = new Intent(WoodElves.this, WildRiders.class);
+                    startActivity(woodElvesIntent);
+                } else if (item == 22) {
+                    Intent woodElvesIntent = new Intent(WoodElves.this, WildRidersShields.class);
+                    startActivity(woodElvesIntent);
+                } else if (item == 23) {
+                    Intent woodElvesIntent = new Intent(WoodElves.this, GladeRiders.class);
+                    startActivity(woodElvesIntent);
+                } else if (item == 24) {
+                    Intent woodElvesIntent = new Intent(WoodElves.this, GladeRidersHagbaneTips.class);
+                    startActivity(woodElvesIntent);
+                } else if (item == 25) {
+                    Intent woodElvesIntent = new Intent(WoodElves.this, HawkRiders.class);
+                    startActivity(woodElvesIntent);
+                } else if (item == 26) {
+                    Intent woodElvesIntent = new Intent(WoodElves.this, SistersOfTheThorn.class);
                     startActivity(woodElvesIntent);
                 }
             }
