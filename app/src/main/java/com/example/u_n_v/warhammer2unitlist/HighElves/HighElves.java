@@ -29,8 +29,8 @@ public class HighElves extends AppCompatActivity {
 
         // Create an ArrayList of type UnitNames
         final ArrayList<UnitName> highElfNames = new ArrayList<>();
-        highElfNames.add(new UnitName("Princess"));
-        highElfNames.add(new UnitName("Prince"));
+        highElfNames.add(new UnitName(0, 0, 0, 0,"Princess"));
+        highElfNames.add(new UnitName(0, 0, 0, 0,"Prince"));
 
 
         unit = findViewById(R.id.unitName);
