@@ -62,7 +62,7 @@ public class NameAdapter extends ArrayAdapter<UnitName> {
             unitFaction2.setVisibility(View.VISIBLE);
         } else {
             // Otherwise hide the imageResource
-            unitFaction2.setVisibility(View.GONE);
+            unitFaction2.setVisibility(View.INVISIBLE);
         }
 
         // Find the ImageView for the Faction Image 3
@@ -75,7 +75,7 @@ public class NameAdapter extends ArrayAdapter<UnitName> {
             unitFaction3.setVisibility(View.VISIBLE);
         } else {
             // Otherwise hide the imageResource
-            unitFaction3.setVisibility(View.GONE);
+            unitFaction3.setVisibility(View.INVISIBLE);
         }
 
         // Find the ImageView for the Faction Image 4
@@ -88,7 +88,7 @@ public class NameAdapter extends ArrayAdapter<UnitName> {
             unitFaction4.setVisibility(View.VISIBLE);
         } else {
             // Otherwise hide the imageResource
-            unitFaction4.setVisibility(View.GONE);
+            unitFaction4.setVisibility(View.INVISIBLE);
         }
 
 
