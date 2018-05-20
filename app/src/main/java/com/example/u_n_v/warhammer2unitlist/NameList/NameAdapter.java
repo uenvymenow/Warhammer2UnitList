@@ -40,6 +40,19 @@ public class NameAdapter extends ArrayAdapter<UnitName> {
         UnitName currentName = getItem(position);
 
         // Find the ImageView for the Faction Image 1
+        ImageView unitIcon = nameListView.findViewById(R.id.unitIcon);
+        // Check whether the array has an image
+        if (currentName.unitIconHasImage()){
+            // If an image is available, display the provide image based on resource id
+            unitIcon.setImageResource(currentName.getUnitIcon());
+            // Make the image visible
+            unitIcon.setVisibility(View.VISIBLE);
+        } else {
+            // Otherwise hide the imageResource
+            unitIcon.setVisibility(View.GONE);
+        }
+
+        // Find the ImageView for the Faction Image 1
         ImageView unitFaction1 = nameListView.findViewById(R.id.raceIcon1);
         // Check whether the array has an image
         if (currentName.faction1HasImage()){
@@ -62,7 +75,7 @@ public class NameAdapter extends ArrayAdapter<UnitName> {
             unitFaction2.setVisibility(View.VISIBLE);
         } else {
             // Otherwise hide the imageResource
-            unitFaction2.setVisibility(View.INVISIBLE);
+            unitFaction2.setVisibility(View.GONE);
         }
 
         // Find the ImageView for the Faction Image 3
@@ -75,7 +88,7 @@ public class NameAdapter extends ArrayAdapter<UnitName> {
             unitFaction3.setVisibility(View.VISIBLE);
         } else {
             // Otherwise hide the imageResource
-            unitFaction3.setVisibility(View.INVISIBLE);
+            unitFaction3.setVisibility(View.GONE);
         }
 
         // Find the ImageView for the Faction Image 4
@@ -88,7 +101,7 @@ public class NameAdapter extends ArrayAdapter<UnitName> {
             unitFaction4.setVisibility(View.VISIBLE);
         } else {
             // Otherwise hide the imageResource
-            unitFaction4.setVisibility(View.INVISIBLE);
+            unitFaction4.setVisibility(View.GONE);
         }
 
 

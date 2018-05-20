@@ -57,7 +57,7 @@ public class WoodElves extends AppCompatActivity {
 
         // Create an ArrayList of type UnitNames
         final ArrayList<UnitName> woodElfNames = new ArrayList<>();
-        woodElfNames.add(new UnitName((R.drawable.wood_elves), (R.drawable.argwylon), "Glade Lord (M)"));
+        woodElfNames.add(new UnitName((R.drawable.glade_lord_m), (R.drawable.wood_elves), (R.drawable.argwylon), "Glade Lord (M)"));
         woodElfNames.add(new UnitName((R.drawable.wood_elves), (R.drawable.argwylon),  "Glade Lord (F)"));
         woodElfNames.add(new UnitName((R.drawable.wood_elves), "Orion"));
         woodElfNames.add(new UnitName((R.drawable.wood_elves), (R.drawable.argwylon), "Ancient Treeman"));
