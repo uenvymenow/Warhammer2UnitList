@@ -31,6 +31,7 @@ public class UnitName {
 
     // Class constructor
     public UnitName(int unitIcon, int factionImage1, int factionImage2, String unitName){
+        mUnitIcon = unitIcon;
         mFactionImage1 = factionImage1;
         mFactionImage2 = factionImage2;
         mUnitName = unitName;
@@ -38,6 +39,7 @@ public class UnitName {
 
     // Class constructor
     public UnitName(int unitIcon, int factionImage1, int factionImage2, int factionImage3, String unitName){
+        mUnitIcon = unitIcon;
         mFactionImage1 = factionImage1;
         mFactionImage2 = factionImage2;
         mFactionImage3 = factionImage3;
@@ -46,6 +48,7 @@ public class UnitName {
 
     // Class constructor
     public UnitName(int unitIcon, int factionImage1, int factionImage2, int factionImage3, int factionImage4, String unitName){
+        mUnitIcon = unitIcon;
         mFactionImage1 = factionImage1;
         mFactionImage2 = factionImage2;
         mFactionImage3 = factionImage3;

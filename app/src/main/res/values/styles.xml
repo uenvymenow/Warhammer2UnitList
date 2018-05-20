@@ -8,4 +8,11 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- Notes about Icon Images 
+    1) 58x128 - Rectangle Image
+    2) 2) After Exporting then Scale Image to 40%
+
+    1) 195x195 - Circle Image
+    2) After Exporting then Scale Image to 40% -->
+
 </resources>
